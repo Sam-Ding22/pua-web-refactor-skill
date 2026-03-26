@@ -49,9 +49,14 @@
 
 本 skill 已放置在项目的 `.lingma/skills/pua-web-refactor/` 目录下，AI 会自动识别。
 
-在对话开始时告诉 AI：
+**中文版**：
 ```
-请使用 pua-pro skill，我需要进行 Web 架构重构。
+请使用 pua-web-refactor skill，我需要进行 Web 架构重构。
+```
+
+**英文版**：
+```
+Please use pua-web-refactor-en skill, I need Web architecture refactoring.
 ```
 
 或者直接在复杂重构任务中说：
