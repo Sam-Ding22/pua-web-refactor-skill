@@ -1,4 +1,4 @@
-# PUA-Pro Skill — Web 重构增强版
+# PUA-Web-Refactor Skill — Web 重构增强版
 
 > **让 AI 不敢摆烂的 PUA Skill，针对 Web 架构重构场景深度优化。**  
 > **Fork 自 [tanweai/pua](https://github.com/tanweai/pua)**
@@ -47,7 +47,7 @@
 
 ### 方式一：直接使用（推荐）
 
-本 skill 已放置在项目的 `.lingma/skills/pua-pro/` 目录下，AI 会自动识别。
+本 skill 已放置在项目的 `.lingma/skills/pua-web-refactor/` 目录下，AI 会自动识别。
 
 在对话开始时告诉 AI：
 ```
@@ -63,7 +63,7 @@
 
 在任何对话中，你可以要求：
 ```
-/skill pua-pro
+/skill pua-web-refactor
 ```
 
 ---
@@ -79,7 +79,7 @@ AI：好的，已完成。（只改了 JS，没管 HTML/CSS）
 
 ### PUA-Pro（Web 重构增强）
 ```
-用户：帮我重构这个前端模块，启用 pua-pro
+用户：帮我重构这个前端模块，启用 pua-web-refactor
 AI：好的，开始重构...
    1. grep_code 搜索所有引用位置 ✓
    2. 同步更新 JS/HTML/CSS ✓
@@ -92,7 +92,7 @@ AI：好的，开始重构...
 
 ## 📊 与原版的区别
 
-| 功能模块 | 原版 (pua) | 增强版 (pua-pro) |
+| 功能模块 | 原版 (pua) | 增强版 (pua-web-refactor) |
 |---------|-----------|-----------------|
 | **核心铁律** | 3 条 | 4 条（+ 稳健第一） |
 | **鞭策话术** | 通用 10 条 | 通用 10 条 + Web 专用 2 条 |
@@ -108,17 +108,17 @@ AI：好的，开始重构...
 
 ### 场景 1：防止 AI 摆烂
 ```
-我这个 bug 修了 3 次还没好，启用 pua-pro skill。
+我这个 bug 修了 3 次还没好，启用 pua-web-refactor skill。
 ```
 
 ### 场景 2：Web 重构防遗漏
 ```
-我要移除预处理阶段，JS/HTML/CSS 都要改，用 pua-pro 的稳健模式。
+我要移除预处理阶段，JS/HTML/CSS 都要改，用 pua-web-refactor 的稳健模式。
 ```
 
 ### 场景 3：多文件同步
 ```
-这个变量名要统一修改，整个项目有 5 个文件引用，用 pua-pro 确保不遗漏。
+这个变量名要统一修改，整个项目有 5 个文件引用，用 pua-web-refactor 确保不遗漏。
 ```
 
 ---
@@ -194,9 +194,9 @@ MIT License
 
 ## 🙏 致谢
 
-- 感谢 [open-pua/pua-skill](https://github.com/open-pua/pua-skill) 提供的优秀基础版本
+- 感谢 [tanweai/pua](https://github.com/tanweai/pua) 提供的优秀基础版本
 - 感谢所有贡献者的大厂智慧
 
 ---
 
-**Made with ❤️ by Fork from open-pua/pua-skill, enhanced for Web refactoring scenarios.**
+**Made with ❤️ by Fork from tanweai/pua**

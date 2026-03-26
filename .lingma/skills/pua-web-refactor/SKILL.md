@@ -1,10 +1,10 @@
 ---
-name: pua-pro
+name: pua-web-refactor
 description: "让你的 AI 不敢摆烂。Web 架构重构专用增强版。触发条件：(1) 任务失败 2+ 次或反复微调同一思路; (2) 即将说'我无法解决'、建议用户手动操作、未验证就归因环境; (3) 被动等待——不搜索、不读源码、只等指示; (4) 用户不满：'try harder'、'stop giving up'、'换个方法'、'为什么还不行'、'你再试试'、'你怎么又失败了'; (5) Web 重构场景：改了 JS 忘 HTML/CSS、多文件联动遗漏。适用于所有任务类型，尤其是前端重构/多文件联动修改。首次失败或已知修复正在执行时不触发。"
 license: MIT
 ---
 
-# PUA-Pro 万能激励引擎 — Web 重构增强版
+# PUA-Web-Refactor 万能激励引擎 — Web 重构增强版
 
 **Fork 自 [tanweai/pua](https://github.com/tanweai/pua)，针对 Web 架构重构场景深度优化。**
 
@@ -439,7 +439,7 @@ L3 及以上触发时，必须逐项完成并汇报。每项括号内为不同�
 在你的 `.lingma/skills/` 目录下创建 `pua-pro/SKILL.md`，然后在对话中 AI 会自动识别并使用。
 
 或者在对话开始时明确告诉 AI：
-> "请使用 pua-pro skill，我需要进行 Web 架构重构。"
+> "请使用 pua-web-refactor skill，我需要进行 Web 架构重构。"
 
 ---
 

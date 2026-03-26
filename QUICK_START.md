@@ -1,4 +1,4 @@
-# 🚀 立即推送 GitHub - 3 分钟搞定
+# 🚀 PUA-Web-Refactor Skill - 立即推送 GitHub
 
 ## ⚠️ 为什么推送失败？
 
@@ -64,13 +64,13 @@ git push -u origin main
 在你的项目中执行：
 
 ```bash
-cd d:\毕设\代码\5GUI\pua-pro-skill
+cd d:\毕设\代码\5GUI\pua-web-refactor-skill
 
 # 如果之前已经 add 过 remote，先删除（避免冲突）
 git remote remove origin
 
 # 添加新的 remote（从 GitHub 页面复制的命令）
-git remote add origin https://github.com/Sam-Ding22/pua-pro-skill.git
+git remote add origin https://github.com/Sam-Ding22/pua-web-refactor-skill.git
 
 # 推送！
 git push -u origin main
@@ -94,7 +94,7 @@ Branch 'main' set up to track remote branch 'main' from 'origin'.
 ## 🎉 成功标志
 
 推送成功后，打开你的 GitHub 仓库页面：
-👉 **https://github.com/Sam-Ding22/pua-pro-skill**
+👉 **https://github.com/Sam-Ding22/pua-web-refactor-skill**
 
 你应该能看到：
 - ✅ 文件列表（README.md, LICENSE, .lingma/skills/pua-pro/等）
@@ -164,7 +164,7 @@ git remote -v
 
 # 如果不正确，删除重来
 git remote remove origin
-git remote add origin https://github.com/Sam-Ding22/pua-pro-skill.git
+git remote add origin https://github.com/Sam-Ding22/pua-web-refactor-skill.git
 git push -u origin main
 ```
 

@@ -1,4 +1,4 @@
-# PUA-Pro Skill — Web 重构增强版
+# PUA-Web-Refactor Skill — Web 重构增强版
 
 > **Fork 自 [tanweai/pua](https://github.com/tanweai/pua)**，针对 Web 架构重构场景深度优化。
 
@@ -28,11 +28,11 @@
 
 ### 方式一：直接使用（推荐）
 
-本 skill 已放置在项目的 `.lingma/skills/pua-pro/` 目录下，AI 会自动识别。
+本 skill 已放置在项目的 `.lingma/skills/pua-web-refactor/` 目录下，AI 会自动识别。
 
 在对话开始时告诉 AI：
 ```
-请使用 pua-pro skill，我需要进行 Web 架构重构。
+请使用 pua-web-refactor skill，我需要进行 Web 架构重构。
 ```
 
 或者直接在复杂重构任务中说：
@@ -57,7 +57,7 @@
 
 ## 💡 与原版的区别
 
-| 功能模块 | 原版 (pua) | 增强版 (pua-pro) |
+| 功能模块 | 原版 (pua) | 增强版 (pua-web-refactor) |
 |---------|-----------|-----------------|
 | **核心铁律** | 3 条 | 4 条（+ 稳健第一） |
 | **鞭策话术** | 通用 10 条 | 通用 10 条 + Web 专用 2 条 |
@@ -78,7 +78,7 @@ AI：好的，已完成。（只改了 JS，没管 HTML/CSS）
 
 ### PUA-Pro（Web 重构增强）
 ```
-用户：帮我重构这个前端模块，启用 pua-pro
+用户：帮我重构这个前端模块，启用 pua-web-refactor
 AI：好的，开始重构...
    1. grep_code 搜索所有引用位置 ✓
    2. 同步更新 JS/HTML/CSS ✓

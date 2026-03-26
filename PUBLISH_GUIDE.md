@@ -1,4 +1,4 @@
-# 🚀 PUA-Pro Skill 发布指南
+# 🚀 PUA-Web-Refactor Skill 发布指南
 
 ## ✅ 已完成
 
@@ -16,8 +16,8 @@
 #### 步骤 1：在 GitHub 上创建空仓库
 
 1. 打开 https://github.com/new
-2. Repository name: `pua-pro-skill`
-3. Description: "PUA Skill for Web Refactoring - 让 AI 不敢摆烂的 Web 重构增强版"
+2. Repository name: `pua-web-refactor-skill`
+3. Description: "PUA Skill for Web Refactoring - 让 AI 不敢摆烂的 Web 重构增强版（pua-web-refactor）"
 4. **不要** 勾选 "Add a README file"
 5. **不要** 勾选 ".gitignore"
 6. **不要** 选择 License
@@ -26,10 +26,10 @@
 #### 步骤 2：推送代码到 GitHub
 
 ```bash
-cd d:\毕设\代码\5GUI\pua-pro-skill
+cd d:\毕设\代码\5GUI\pua-web-refactor-skill
 
 # 替换为你的 GitHub 用户名和仓库名
-git remote add origin https://github.com/Sam-Ding22/pua-pro-skill.git
+git remote add origin https://github.com/Sam-Ding22/pua-web-refactor-skill.git
 
 # 推送
 git push -u origin main
@@ -70,13 +70,13 @@ gh repo fork tanweai/pua --clone
 cd pua
 
 # 创建新分支
-git checkout -b feat/pua-pro-web-refactoring
+git checkout -b feat/pua-web-refactor
 
 # 复制你的改进
-cp -r ../5GUI/pua-pro-skill/.lingma/skills/pua-pro ./skills/
+cp -r ../5GUI/pua-web-refactor-skill/.lingma/skills/pua-web-refactor ./skills/
 
 # 如果有英文版需求，也可以复制
-# cp -r ../5GUI/pua-pro-skill/.lingma/skills/pua-pro-en ./skills/  # 如果有的话
+# cp -r ../5GUI/pua-web-refactor-skill/.lingma/skills/pua-web-refactor-en ./skills/  # 如果有的话
 ```
 
 #### 步骤 3：更新原项目的 README
@@ -86,14 +86,14 @@ cp -r ../5GUI/pua-pro-skill/.lingma/skills/pua-pro ./skills/
 ```markdown
 ## Related Projects
 
-- **[pua-pro-skill](https://github.com/Sam-Ding22/pua-pro-skill)** - Web refactoring enhanced version with additional stability checks and JS/HTML/CSS sync validation.
+- **[pua-web-refactor-skill](https://github.com/Sam-Ding22/pua-web-refactor-skill)** - Web refactoring enhanced version with additional stability checks and JS/HTML/CSS sync validation.
 ```
 
 #### 步骤 4：提交 PR
 
 ```bash
 # 添加文件
-git add skills/pua-pro/
+git add skills/pua-web-refactor/
 git add README.md
 
 # 提交
@@ -122,14 +122,14 @@ git push origin feat/pua-pro-web-refactoring
 
 **Title:**
 ```
-feat: Add PUA-Pro - Web Refactoring Enhanced Version
+feat: Add PUA-Web-Refactor - Web Refactoring Enhanced Version
 ```
 
 **Description:**
 ```markdown
 ## What does this PR do?
 
-This PR adds a new `pua-pro` skill variant specifically designed for Web refactoring scenarios.
+This PR adds a new `pua-web-refactor` skill variant specifically designed for Web refactoring scenarios.
 
 ## Why is this needed?
 
@@ -138,7 +138,7 @@ When working on Web architecture refactoring (especially JS/HTML/CSS multi-file 
 - Modify one file but miss references in other files
 - Claim "completed" without verifying the actual page works
 
-The `pua-pro` variant adds specific checks and pressure mechanisms to prevent these issues.
+The `pua-web-refactor` variant adds specific checks and pressure mechanisms to prevent these issues.
 
 ## Key Features
 
@@ -151,7 +151,7 @@ The `pua-pro` variant adds specific checks and pressure mechanisms to prevent th
 ## Files Added
 
 ```
-skills/pua-pro/
+skills/pua-web-refactor/
 ├── SKILL.md      (31KB - Core skill with web enhancements)
 └── README.md     (6KB - Usage guide)
 ```
