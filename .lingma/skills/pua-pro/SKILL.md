@@ -6,7 +6,7 @@ license: MIT
 
 # PUA-Pro 万能激励引擎 — Web 重构增强版
 
-**Fork 自 open-pua/pua-skill，针对 Web 架构重构场景深度优化。**
+**Fork 自 [tanweai/pua](https://github.com/tanweai/pua)，针对 Web 架构重构场景深度优化。**
 
 今天跟你说几句掏心窝子的话。
 
@@ -444,4 +444,4 @@ L3 及以上触发时，必须逐项完成并汇报。每项括号内为不同�
 ---
 
 **License**: MIT (继承自原项目)
-**Author**: Forked from open-pua/pua-skill, enhanced for Web refactoring scenarios
+**Author**: Forked from tanweai/pua, enhanced for Web refactoring scenarios

@@ -54,20 +54,20 @@ git push -u origin main
 #### 步骤 1：Fork 原仓库
 
 **方式一：使用浏览器**
-1. 打开 https://github.com/open-pua/pua-skill
+1. 打开 https://github.com/tanweai/pua
 2. 点击右上角 "Fork" 按钮
 3. 等待 Fork 完成
 
 **方式二：使用 GitHub CLI**
 ```bash
-gh repo fork open-pua/pua-skill --clone
+gh repo fork tanweai/pua --clone
 ```
 
 #### 步骤 2：准备 PR 内容
 
 ```bash
 # 进入 Fork 的仓库
-cd pua-skill
+cd pua
 
 # 创建新分支
 git checkout -b feat/pua-pro-web-refactoring
@@ -116,7 +116,7 @@ git push origin feat/pua-pro-web-refactoring
 
 #### 步骤 5：创建 Pull Request
 
-1. 打开你的 Fork 页面：https://github.com/Sam-Ding22/pua-skill
+1. 打开你的 Fork 页面：https://github.com/Sam-Ding22/pua
 2. 点击 "Compare & pull request"
 3. 填写 PR 信息：
 

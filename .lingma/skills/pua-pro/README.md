@@ -1,6 +1,6 @@
 # PUA-Pro Skill — Web 重构增强版
 
-> **Fork 自 [open-pua/pua-skill](https://github.com/open-pua/pua-skill)**，针对 Web 架构重构场景深度优化。
+> **Fork 自 [tanweai/pua](https://github.com/tanweai/pua)**，针对 Web 架构重构场景深度优化。
 
 ## 🎯 核心改进
 
@@ -142,7 +142,7 @@ AI：等等，你改了 JS 里的变量名，HTML 里的 id 检查了吗？
 
 ## 📚 参考资料
 
-- 原项目：https://github.com/open-pua/pua-skill
+- 原项目：https://github.com/tanweai/pua
 - 大厂方法论 references：见 `.lingma/skills/pua/references/` 目录
 - Lingma 文档：https://lingma.aliyun.com/
 

@@ -1,7 +1,7 @@
 # PUA-Pro Skill — Web 重构增强版
 
 > **让 AI 不敢摆烂的 PUA Skill，针对 Web 架构重构场景深度优化。**  
-> **Fork 自 [open-pua/pua-skill](https://github.com/open-pua/pua-skill)**
+> **Fork 自 [tanweai/pua](https://github.com/tanweai/pua)**
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Chinese](https://img.shields.io/badge/language-中文-red.svg)](README_zh.md)
@@ -181,7 +181,7 @@ pua-pro-skill/
 
 ## 📚 参考资料
 
-- 原项目：https://github.com/open-pua/pua-skill
+- 原项目：https://github.com/tanweai/pua
 - Lingma 文档：https://lingma.aliyun.com/
 
 ---
