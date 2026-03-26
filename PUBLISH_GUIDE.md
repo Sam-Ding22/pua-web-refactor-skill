@@ -97,7 +97,7 @@ git add skills/pua-web-refactor/
 git add README.md
 
 # 提交
-git commit -m "feat: Add PUA-Pro variant for Web refactoring scenarios
+git commit -m "feat: Add PUA-Web-Refactor variant for Web refactoring scenarios
 
 This enhanced version adds:
 - 4th iron rule: Stability first (JS/HTML/CSS sync)
@@ -111,7 +111,7 @@ Related issue: #XXX  # 如果有的话
 "
 
 # 推送到远程
-git push origin feat/pua-pro-web-refactoring
+git push origin feat/pua-web-refactor
 ```
 
 #### 步骤 5：创建 Pull Request

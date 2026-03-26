@@ -98,7 +98,7 @@ AI：好的，已完成。（只改了 JS，没管 HTML/CSS）
 用户：炸了！页面打不开了！
 ```
 
-### PUA-Pro（Web 重构增强） | PUA-Pro (Web Refactoring Enhanced)
+### PUA-Web-Refactor（Web 重构增强） | PUA-Web-Refactor (Web Refactoring Enhanced)
 ```
 用户：帮我重构这个前端模块，启用 pua-web-refactor
 AI：好的，开始重构...

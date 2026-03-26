@@ -3,7 +3,7 @@
 ## ⚠️ 为什么推送失败？
 
 ```
-fatal: repository 'https://github.com/Sam-Ding22/pua-pro-skill.git/' not found
+fatal: repository 'https://github.com/Sam-Ding22/pua-web-refactor-skill.git/' not found
 ```
 
 **原因**：GitHub 上还没有这个仓库，需要先手动创建。
@@ -30,7 +30,7 @@ fatal: repository 'https://github.com/Sam-Ding22/pua-pro-skill.git/' not found
 
 | 字段 | 填写内容 | 说明 |
 |------|---------|------|
-| **Repository name** | `pua-pro-skill` | 仓库名称 |
+| **Repository name** | `pua-web-refactor-skill` | 仓库名称 |
 | **Description** | `PUA Skill for Web Refactoring - 让 AI 不敢摆烂的 Web 重构增强版` | 描述 |
 | **Visibility** | ✅ Public（公开） | 让别人能看到 |
 | **Initialize with README** | ❌ **不要勾选** | 我们已经有代码了 |
@@ -52,7 +52,7 @@ fatal: repository 'https://github.com/Sam-Ding22/pua-pro-skill.git/' not found
 
 **复制下面的命令：**
 ```bash
-git remote add origin https://github.com/Sam-Ding22/pua-pro-skill.git
+git remote add origin https://github.com/Sam-Ding22/pua-web-refactor-skill.git
 git branch -M main
 git push -u origin main
 ```
@@ -84,7 +84,7 @@ Delta compression using up to 8 threads
 Compressing objects: 100% (5/5), done.
 Writing objects: 100% (6/6), 4.56 KiB | 4.56 MB/s, done.
 Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
-To https://github.com/Sam-Ding22/pua-pro-skill.git
+To https://github.com/Sam-Ding22/pua-web-refactor-skill.git
  * [new branch]      main -> main
 Branch 'main' set up to track remote branch 'main' from 'origin'.
 ```
@@ -97,8 +97,8 @@ Branch 'main' set up to track remote branch 'main' from 'origin'.
 👉 **https://github.com/Sam-Ding22/pua-web-refactor-skill**
 
 你应该能看到：
-- ✅ 文件列表（README.md, LICENSE, .lingma/skills/pua-pro/等）
-- ✅ 提交记录（Initial release: PUA-Pro Skill v1.0）
+- ✅ 文件列表（README.md, LICENSE, .lingma/skills/pua-web-refactor/等）
+- ✅ 提交记录（Initial release: PUA-Web-Refactor Skill v1.0）
 - ✅ About 区域显示你的描述
 
 ---
@@ -132,7 +132,7 @@ https://lingma.aliyun.com/
 如果想让 README 更醒目，可以在仓库页面的 README.md 上方添加徽章：
 
 ```markdown
-# PUA-Pro Skill — Web 重构增强版
+# PUA-Web-Refactor Skill — Web 重构增强版
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Chinese](https://img.shields.io/badge/language-中文-red.svg)]()
@@ -154,7 +154,7 @@ https://lingma.aliyun.com/
 ## ❓ 遇到问题？
 
 ### 问题 1：找不到 "Create repository" 按钮
-**解决**：确保 Repository name 填的是 `pua-pro-skill`
+**解决**：确保 Repository name 填的是 `pua-web-refactor-skill`
 
 ### 问题 2：推送时还是报错
 **解决**：
