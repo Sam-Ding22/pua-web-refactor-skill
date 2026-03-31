@@ -199,8 +199,6 @@ pua-web-refactor-skill/
 │           ├── SKILL.md
 │           └── README.md
 ├── README.md                       # 项目说明 Project documentation
-├── PUBLISH_GUIDE.md               # 发布指南 Publishing guide
-├── QUICK_START.md                 # 快速开始 Quick start guide
 └── LICENSE                        # MIT License
 ```
 
